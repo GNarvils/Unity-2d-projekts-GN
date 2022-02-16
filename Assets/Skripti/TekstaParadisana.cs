@@ -14,5 +14,7 @@ public class TekstaParadisana : MonoBehaviour {
 		teksts = ievadeslauks.GetComponent<Text> ().text;
 		tekstaAttelosanasLauks.GetComponent<Text>().text = "Sveiks "+teksts.ToUpper()+"!";
 	}
+
+
 		
 }
